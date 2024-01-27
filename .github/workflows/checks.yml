@@ -1,7 +1,7 @@
 ---
-name: Checks ###name in github
+name: Checks
 
-on: [push] ### action runned
+on: [push]
 
 jobs:
   test-lint:
