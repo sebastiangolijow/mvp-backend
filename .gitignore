@@ -1,0 +1,32 @@
+.DS_Store
+node_modules
+db.sqlite3
+.app/
+# python
+*.pyc
+**/__pycache__
+.coverage
+.mypy_cache
+.pytest_cache
+
+#env
+env
+venv
+core_env
+.python-version
+.secrets
+
+#ide
+.vim/
+pyrightconfig.json
+.idea
+.vscode
+
+#env variables
+.envs/.local/google_captcha_key
+.envs/.local/sendinblue_token
+.envs/.local/twilio_token
+.envs/.local/aws_user*
+.envs/.dev/*
+.envs/.staging/
+.envs/.master/
