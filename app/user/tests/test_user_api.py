@@ -17,7 +17,7 @@ class PublicUserAPITest(TestCase):
     def setUp(self):
         self.client = APIClient()
 
-    def test_Create_user_success(self):
+    def test_create_user_success(self):
         payload = {
             'email': 'test@example.com',
             'password': 'testpass123',
