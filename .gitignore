@@ -8,9 +8,9 @@ db.sqlite3
 .coverage
 .mypy_cache
 .pytest_cache
-
 #env
 env
+.env
 venv
 core_env
 .python-version
